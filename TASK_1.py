@@ -1,0 +1,141 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "TASK 1",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Alister-Clietus/LEARN.PY/blob/main/TASK_1.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "q-yWxfWESiQo"
+      },
+      "source": [
+        "1.Write a program that uses input to prompt a user for their name and then welcomes them."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "9ikpRxqMSxu0",
+        "outputId": "f361ae00-f0f7-49b9-dc38-e56217169831",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "#please provide your answer here below this line\n",
+        "name=input(\"Enter The Name \")\n",
+        "print('Hello {} Welcome to LEARN.PY Program'.format(name))"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter The Name Alister Clietus\n",
+            "Hello Alister Clietus Welcome to LEARN.PY Program\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Ay5OdxguS-2Z"
+      },
+      "source": [
+        "2.Write a program which prompts the user for a Celsius temperature, convert the temperature to Fahrenheit, and print out the converted temperature."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "MMv2yWNtTgEu",
+        "outputId": "816810f3-95ec-48e1-9f04-f5b23f5ebf0b",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "#please provide your answer here below this line\n",
+        "print(\"Program To Convert Celcius To Farenheat \")\n",
+        "celsius_value=float(input(\"Enter The value Of Temperature in Celcius \"))\n",
+        "fahrenheit_value=((9/5)*celsius_value)+32\n",
+        "print(\"{}(Celsius) = {}(Fahrenheit)\".format(celsius_value,fahrenheit_value))"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Program To Convert Celcius To Farenheat \n",
+            "Enter The value Of Temperature in Celcius 1234\n",
+            "1234.0(Celsius) = 2253.2000000000003(Fahrenheit)\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "v6O1a198TpNd"
+      },
+      "source": [
+        "3.Write a Python program to convert degree to radian."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "27Jj4_D0UQBA",
+        "outputId": "bd2e17f0-f71b-498d-e13c-6707d4b2b5fd",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "#please provide your answer here below this line\n",
+        "print(\"Program To Convert Degree to Radian\")\n",
+        "degree_value=float(input(\"Enter The value Of Angle in Degree \"))\n",
+        "radian_value=(3.14*degree_value)/180\n",
+        "print(\"{}(Degree) = {}(pi)\".format(degree_value,radian_value))"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Program To Convert Degree to Radian\n",
+            "Enter The value Of Angle in Degree 360\n",
+            "360.0(Degree) = 6.28(pi)\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
